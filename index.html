@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하림</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'></script>
+
+	<!-- fullpage 연결 -->
+    <link rel="stylesheet" href="./lib/fullpage/fullpage.css">
+    <script src="./lib/fullpage/fullpage.js"></script>
+
+	<!-- bxslider 연결 -->
+	<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css">
+	<script src='lib/bxslider/jquery.bxslider.js'></script>
+	
+	<!-- 각종 사용자 스타일 및 스크립트 
+	:: 헤더안에 연결되는 각종 링크 문서들중 항상 사용자 스타일 스크립트가 
+	head 종료전 마지막으로 입력되어야 합니다.-->
+	<link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/main.css">
+    <script src='js/basic.js'></script>
+
+</head>
+
+<body>
+	<div class="quickmenu">
+		<a href="#">위로가기</a>
+		<a href="#"> 아래로가기</a>		
+	</div>
+
+    <header>
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">하림소개</a></li>
+                <li><a href="#">제품정보</a></li>
+                <li><a href="#">홍보센터</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">윤리경영</a></li>
+            </ul>
+        </nav>
+
+
+       <div class="actionbtn">
+           <button > <div class="action-logo cs"></div> 고객센터</button>
+           <button> <div class="action-logo lang"></div>Eng</button>
+           <button class="bt"> <div class="action-logo menu"></div>MENU</button>
+       </div>
+    </header>
+
+
+<div id="fullpage">
+    <div class="visual section">
+		<!-- 웹표준에서는 소리가 있는 비디오는 사용자 접근성을 방해한다는 이유로 오디오가 있는 비디오는 반드시 소리를 제거하여야 자동재생이 되도록 권고하고 잇습니다. 그외에는 사용자가 play 해야 재생되는것이 웹표준의 권고사항 입니다. -->
+		<video src="media/harim02.mp4" id='video' autoplay muted loop data-autoplay></video>
+    </div><!-- .visual end -->
+
+    <div class="products section">
+		<div class="container">
+			<div class="col6">
+			<img src="images/main mid.jpg"  alt="에어프라이어사진"></div>
+
+			<div class="col6">
+				<div class="titlearea">
+					<h2>PRODUCTS</h2>
+					<p>부연설명</p>
+				</div>
+
+				<div class="productwrap">
+					<ul class='produt'>
+						<li>
+							<div class="box"></div>
+							<div class="box">
+								<img src="images/product1.png" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product2.png" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product3.jpg" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="box"></div>
+							<div class="box">
+								<img src="images/product4.jpg" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product5.jpg" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product6.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="box"></div>
+							<div class="box">
+								<img src="images/product7.jpg" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product8.jpg" alt="">
+							</div>
+							<div class="box">
+								<img src="images/product9.jpg" alt="">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div><!-- .products end -->
+    
+    <div class="brand section">
+		<div class="container">
+			<div class="col12"><h2>BRAND</h2>
+				<p>부연설명...일단 생략</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="barandwrap">
+					<div id='brand'>
+					<div class="col4"><img src="images/brand1.jpg"  alt=""></div>
+					<div class="col4"><img src="images/brand2.jpg"  alt=""></div>
+					<div class="col4"><img src="images/brand3.jpg"  alt=""></div>
+					<div class="col4"><img src="images/brand4.jpg"  alt=""></div>
+					<div class="col4"><img src="images/brand5.jpg"  alt=""></div>
+					<div class="col4"><img src="images/brand6.jpg"  alt=""></div>
+				</div>
+			</div>
+		</div>
+    </div><!-- .brand end -->
+
+    <div class="harim-sns section">
+		<div class="container">
+			<div class="col6"><h2>하림 SNS</h2></div>
+			<div class="col6">
+				<div id="video">
+					<iframe width="580" height="394" src="https://www.youtube.com/embed/TyYRifDywUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+    </div><!-- .harim-sns end -->
+
+    <div class="corporate section">
+
+    </div><!-- .corporate end -->
+
+
+    <div class="foot section fp-auto-height">
+		<div style='padding:100px 0;background:#333;color:#fff;text-align:center'>푸터 내용 들어가는곳</div>
+	</div><!-- .foot end -->
+</div>
+</body>
+</html>
