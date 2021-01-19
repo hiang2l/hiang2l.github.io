@@ -132,21 +132,21 @@
 			<div class="barandwrap">
 						<!-- 2021 01.15 추가 -->
 					<div id='brand'>
-					<div class="col4" data-aos='fade-up' data-aos-delay='100'><img src="images/brand1.jpg"  alt="">
+					<div class="col4" data-aos='fade-down'><img src="images/brand1.jpg"  alt="">
 						<div class="txt">
                                 <h3>용가리 치킨</h3>
                                 <p>하림의 대표적인 브랜드 용가리 치킨. 공룡모양으로 만들어 아이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품입니다.</p>
                                  <span>제품 바로가기</span>
                             </div>
 						</div>
-					<div class="col4" data-aos='fade-up' data-aos-delay='300'><img src="images/brand2.jpg"  alt="">
+					<div class="col4" data-aos='fade-down'><img src="images/brand2.jpg"  alt="">
 						<div class="txt">
                                 <h3>용가리 치킨</h3>
                                 <p>하림의 대표적인 브랜드 용가리 치킨. 공룡모양으로 만들어 아이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품입니다.</p>
                                  <span>제품 바로가기</span>
                             </div>
 						</div>
-					<div class="col4" data-aos='fade-up' data-aos-delay='500'><img src="images/brand3.jpg"  alt="">
+					<div class="col4" data-aos='fade-down'><img src="images/brand3.jpg"  alt="">
 						<div class="txt">
                                 <h3>용가리 치킨</h3>
                                 <p>하림의 대표적인 브랜드 용가리 치킨. 공룡모양으로 만들어 아이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품입니다.</p>
